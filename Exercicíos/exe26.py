@@ -1,0 +1,5 @@
+frase = (input ("Escreva qualquer coisa que seu coração quiser: ")).strip().upper()
+print ("sua frase foi: {}".format(frase))
+print ("Sua frase tem esta quantidade de letras A: {} ".format(frase.count('A')))
+print ("A  primeira letra A apareceu na posição {}".format(frase.find("A")+1))
+print ("A ultima letra A apareceu na posição {}".format(frase.rfind("A")))   
